@@ -1,0 +1,93 @@
+ /* Default height for small devices */
+ #intro-example {
+    height: 600px;
+    background-position: bottom;
+    font-family: cursive;
+  }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
+  }
+  .ahmed{
+    background-color:black !important;
+  }
+  @media only screen and (max-width:567px){
+.icon-home{
+  margin-bottom: 15px;
+}
+ }
+.a-home{
+  font-family: cursive;
+}
+.header-home{
+  position: absolute;
+  top: 42%;
+  font-family: cursive;
+ }
+ @media only screen and (max-width:567px){
+  .header-home{
+    margin-bottom: 20px;
+  }
+ } 
+ 
+ .h5-home{
+  font-size: 35px;
+
+
+
+
+
+}
+@media only screen and (max-width:576px){
+  .h5-home{
+    font-size: 16px;
+    
+  }
+}
+.p-home{
+  font-size: 25px;
+} 
+@media only screen and ( max-width:576px){
+  .p-home{
+    font-size: 16px;
+  }
+}
+.img-home{
+  background-image: url(../img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+background-size: cover;
+height: 1000px;
+background-position: bottom;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.img-home p{
+  color: white;
+  font-family: cursive;
+  font-size: 35px;
+  margin-bottom: 30px;
+
+}
+.img-home a{
+  font-size: 25px;
+  font-family: cursive;
+
+}
+.icon-2{
+  font-size: 25px;
+}
+.footer-home{
+  background-color: black !important;
+}
+.h3-home{
+  font-size: 30px;
+  font-family: cursive;
+}
+.b-home{
+  font-family: cursive;
+  font-size: 25px;
+}
